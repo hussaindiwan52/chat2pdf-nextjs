@@ -1,9 +1,9 @@
 import { OpenAIApi, Configuration } from "openai-edge";
 
 const config = new Configuration({
-  apiKey: "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",
+  apiKey: process.env.OPENAI_API_KEY,
 });
-
+console.log(config,"confconfconf")
 const openai = new OpenAIApi(config);
 
 export async function getEmbeddings(text: string) {
