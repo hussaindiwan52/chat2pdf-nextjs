@@ -21,7 +21,7 @@ export async function downloadFromAzureBlobStorage(file_key: string): Promise<st
       const blockBlobClient = containerClient.getBlockBlobClient(file_key);
 
       // Define the local file path where you want to save the downloaded file
-      const file_name = `/tmp/chatpdf/${Date.now().toString()}.pdf`;
+      const file_name = `/tmp/${Date.now().toString()}.pdf`;
 
       // Download the blob to the local file
       const response = await blockBlobClient.downloadToFile(file_name);
