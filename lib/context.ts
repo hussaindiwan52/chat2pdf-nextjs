@@ -26,7 +26,7 @@ export async function getMatchesFromEmbeddings(
         fileKey:convertToAscii(fileKey)
       }
     });
-    console.log(queryResult)
+    // console.log(queryResult)
     return queryResult.matches || [];
   } catch (error) {
     console.log("error querying embeddings", error);

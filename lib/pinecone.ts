@@ -57,7 +57,7 @@ export async function loadAzureBlobIntoPinecone(fileKey: string) {
 
 //   3. vectorise and embed individual documents
   const vectors = await (embedDocument(docu1));
-  console.log(vectors,"hihihihih")
+//   console.log(vectors,"hihihihih")
 
   // 4. upload to pinecone
   const client = await getPineconeClient();

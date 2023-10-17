@@ -40,7 +40,7 @@ const FileUpload = () => {
 				toast.error("File too large");
 				return;
 			}
-			console.log(file);
+			// console.log(file);
 
 			try {
 				setUploading(true);

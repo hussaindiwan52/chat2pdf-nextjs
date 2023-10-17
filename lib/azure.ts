@@ -13,7 +13,7 @@ export async function uploadToAzureBlobStorage(
     try {
       // Create a BlobServiceClient to interact with the Azure Blob storage
       
-      console.log( AZURE_STORAGE_CONNECTION_STRING)
+    //   console.log( AZURE_STORAGE_CONNECTION_STRING)
       const blobServiceClient = BlobServiceClient.fromConnectionString(
         AZURE_STORAGE_CONNECTION_STRING
       );

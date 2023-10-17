@@ -25,7 +25,7 @@ export async function downloadFromAzureBlobStorage(file_key: string): Promise<st
 
       // Download the blob to the local file
       const response = await blockBlobClient.downloadToFile(file_name);
-      console.log(response,"hihihihihihi")
+    //   console.log(response,"hihihihihihi")
 
       // Check if the download was successful and resolve with the file path
       if (response._response.status === 200) {
