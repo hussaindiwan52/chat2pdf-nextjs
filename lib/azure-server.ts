@@ -1,7 +1,7 @@
 import { BlobServiceClient } from "@azure/storage-blob";
 import * as fs from "fs";
 
-const AZURE_STORAGE_CONNECTION_STRING="BlobEndpoint=https://pdqachat2pdf.blob.core.windows.net/;QueueEndpoint=https://pdqachat2pdf.queue.core.windows.net/;FileEndpoint=https://pdqachat2pdf.file.core.windows.net/;TableEndpoint=https://pdqachat2pdf.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-01-03T21:40:05Z&st=2023-12-03T13:40:05Z&sip=0.0.0.0-255.255.255.255&spr=https,http&sig=jlFkND4aA3q%2FWm9FkIj2VUc6XhKLh6ujBL8FeEAbMh4%3D"
+const AZURE_STORAGE_CONNECTION_STRING="BlobEndpoint=https://pdqachat2pdf.blob.core.windows.net/;QueueEndpoint=https://pdqachat2pdf.queue.core.windows.net/;FileEndpoint=https://pdqachat2pdf.file.core.windows.net/;TableEndpoint=https://pdqachat2pdf.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-01-03T21:56:00Z&st=2023-12-03T13:56:00Z&sip=0.0.0.0-255.255.255.255&spr=https,http&sig=BIpo5LHaMm65dTExH33lv%2FRnU4yH1mKWGCcicjcDf0U%3D"
 const AZURE_CONTAINER_NAME="data-storage"
 const AZURE_STORAGE_ACCOUNT_NAME="pdqachat2pdf"
 
