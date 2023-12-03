@@ -2,7 +2,7 @@ import { BlobServiceClient, BlockBlobClient } from "@azure/storage-blob";
 import * as dotenv from "dotenv";
 dotenv.config({ path: ".env" });
 
-const AZURE_STORAGE_CONNECTION_STRING="BlobEndpoint=https://pdqachat2pdf.blob.core.windows.net/;QueueEndpoint=https://pdqachat2pdf.queue.core.windows.net/;FileEndpoint=https://pdqachat2pdf.file.core.windows.net/;TableEndpoint=https://pdqachat2pdf.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2023-12-13T17:01:39Z&st=2023-10-13T09:01:39Z&sip=0.0.0.0-255.255.255.255&spr=https,http&sig=I5Zo5M4I1xku817wVvdPGLntYBqHL5ZcMHHMHBT8%2Btg%3D"
+const AZURE_STORAGE_CONNECTION_STRING="BlobEndpoint=https://pdqachat2pdf.blob.core.windows.net/;QueueEndpoint=https://pdqachat2pdf.queue.core.windows.net/;FileEndpoint=https://pdqachat2pdf.file.core.windows.net/;TableEndpoint=https://pdqachat2pdf.table.core.windows.net/;SharedAccessSignature=sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2024-01-03T21:40:05Z&st=2023-12-03T13:40:05Z&sip=0.0.0.0-255.255.255.255&spr=https,http&sig=jlFkND4aA3q%2FWm9FkIj2VUc6XhKLh6ujBL8FeEAbMh4%3D"
 const AZURE_CONTAINER_NAME="data-storage"
 const AZURE_STORAGE_ACCOUNT_NAME="pdqachat2pdf"
 
